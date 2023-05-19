@@ -24,14 +24,6 @@ h1, h2{
   padding: 10px;
 }
 
-.visited-countries-container p {
-  text-decoration: line-through;
-}
-
-.visited-countries-container button:hover {
-  text-decoration: line-through;
-  background-color: black;
-}
 
 
 li {
