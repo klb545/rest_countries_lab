@@ -1,38 +1,72 @@
-.App {
+body {
+  margin: 10px;
+  background-color: black;
+  color: white;
+  line-height: 1.5;
+}
+
+h1, h2{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.containers{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.countries-container{
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.visited-countries-container{
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.visited-countries-container p {
+  text-decoration: line-through;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.visited-countries-container button:hover {
+  text-decoration: line-through;
+  background-color: black;
 }
+
+
+li {
+  list-style-type: none;
+}
+
+
+button{
+  background-color: black;
+  border: 1px solid transparent;
+  transition: background-color 1s;
+  border-radius: 0.3em;
+}
+
+button:hover{
+  background-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
